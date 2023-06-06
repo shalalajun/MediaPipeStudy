@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
+
+#liveView {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 320px;  /* 원하는 크기로 설정 */
+    height: 240px; /* 원하는 크기로 설정 */
+  }
+  
+  #webcam {
+    width: 100%;
+    height: 100%;
+  }
