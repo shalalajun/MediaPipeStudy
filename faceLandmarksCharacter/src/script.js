@@ -142,7 +142,8 @@ class Avatar{
               this.morphTargetMeshes = [];
             }
             this.gltf = gltf;
-            console.log();
+         
+            console.log(this.gltf);
             this.scene.add(gltf.scene);
             this.init(gltf);
           },
@@ -241,7 +242,8 @@ let video;
 
 const scene = new BasicScene();
 const avatar = new Avatar(
-  "https://assets.codepen.io/9177687/raccoon_head.glb",
+  // "https://assets.codepen.io/9177687/raccoon_head.glb",
+  "raccoon_head.glb",
   scene.scene
 );
 
